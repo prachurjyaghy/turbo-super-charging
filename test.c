@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
+int Sum;
 int main()
 {
-  puts("Greetings, human.");
-  printf("commited by amlan");
-  printf("commited by arpit");
-  
-  return 0;
+    int num1=10,num2=20;
+    Sum=num1+num2;
+    printf("%d",Sum);
+    return 0;
 }
